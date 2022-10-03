@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
 
         }
         else if (finalZone == "Zone2"){
-            rewardText.text = "Awesome Job";
+            rewardText.text = "Awesome";
             rewardText.color = new Color32(50, 205, 50, 255);
             GameWon();
         }
